@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PRN211_PROJECT_Cinemasystem.props" />
+</Project>

@@ -1,0 +1,16 @@
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\bin\Debug\net6.0-windows\CinemaSystem.exe
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\bin\Debug\net6.0-windows\CinemaSystem.deps.json
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\bin\Debug\net6.0-windows\CinemaSystem.runtimeconfig.json
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\bin\Debug\net6.0-windows\CinemaSystem.dll
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\bin\Debug\net6.0-windows\CinemaSystem.pdb
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\obj\Debug\net6.0-windows\CinemaSystem.Form1.resources
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\obj\Debug\net6.0-windows\CinemaSystem.csproj.GenerateResource.cache
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\obj\Debug\net6.0-windows\CinemaSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\obj\Debug\net6.0-windows\CinemaSystem.AssemblyInfoInputs.cache
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\obj\Debug\net6.0-windows\CinemaSystem.AssemblyInfo.cs
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\obj\Debug\net6.0-windows\CinemaSystem.csproj.CoreCompileInputs.cache
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\obj\Debug\net6.0-windows\CinemaSystem.dll
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\obj\Debug\net6.0-windows\refint\CinemaSystem.dll
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\obj\Debug\net6.0-windows\CinemaSystem.pdb
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\obj\Debug\net6.0-windows\CinemaSystem.genruntimeconfig.cache
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\obj\Debug\net6.0-windows\ref\CinemaSystem.dll
