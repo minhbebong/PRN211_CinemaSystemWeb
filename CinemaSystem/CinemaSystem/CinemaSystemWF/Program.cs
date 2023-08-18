@@ -13,5 +13,6 @@ namespace CinemaSystemWF
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }
+        public static string Token { get; set; } = null!;
     }
 }
