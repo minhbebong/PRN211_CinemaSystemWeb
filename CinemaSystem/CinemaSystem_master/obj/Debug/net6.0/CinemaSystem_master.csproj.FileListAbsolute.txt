@@ -1,0 +1,7 @@
+E:\Documents\GitHub\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem_master\obj\Debug\net6.0\CinemaSystemWF.Form1.resources
+E:\Documents\GitHub\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem_master\obj\Debug\net6.0\CinemaSystem_master.csproj.GenerateResource.cache
+E:\Documents\GitHub\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem_master\obj\Debug\net6.0\CinemaSystem_master.GeneratedMSBuildEditorConfig.editorconfig
+E:\Documents\GitHub\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem_master\obj\Debug\net6.0\CinemaSystem_master.AssemblyInfoInputs.cache
+E:\Documents\GitHub\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem_master\obj\Debug\net6.0\CinemaSystem_master.AssemblyInfo.cs
+E:\Documents\GitHub\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem_master\obj\Debug\net6.0\CinemaSystem_master.csproj.CoreCompileInputs.cache
+E:\Documents\GitHub\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem_master\obj\Debug\net6.0\CinemaSystem_master.MvcApplicationPartsAssemblyInfo.cache
