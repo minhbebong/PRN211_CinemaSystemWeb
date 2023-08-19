@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\CinemaSystem"
+    "\\CinemaSystem",
+    "\\CinemaSystem\\CinemaSystemWF"
   ],
   "SelectedNode": "\\CinemaSystem\\CinemaSystem.sln",
   "PreviewInSolutionExplorer": false
