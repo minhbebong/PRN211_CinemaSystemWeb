@@ -1,4 +1,4 @@
-﻿using CinemaSystemWebapp.Models;
+﻿using CinemaSystemWebApp.Models;
 using CinemaSystemWebapp.Utils;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
