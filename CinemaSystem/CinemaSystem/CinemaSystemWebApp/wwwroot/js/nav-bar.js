@@ -1,6 +1,6 @@
 window.addEventListener('load', function () {
-    const navBar = document.querySelector('.hanime-nav-bar');
-    const navBarOverlay = document.querySelector('.hanime-nav-bar__overlay');
+    const navBar = document.querySelector('.cgv-nav-bar');
+    const navBarOverlay = document.querySelector('.cgv-nav-bar__overlay');
 
     if (!navBar || !navBarOverlay)
         return;
@@ -23,11 +23,11 @@ window.addEventListener('load', function () {
 });
 
 window.addEventListener('resize', function () {
-    const navBar = document.querySelector('.hanime-nav-bar');
+    const navBar = document.querySelector('.cgv-nav-bar');
     navBar.style.marginLeft = `-${navBar.offsetWidth}px`;
 });
 
 function toggleCategory() {
-    const category = document.querySelector(".hanime-nav-bar__category");
+    const category = document.querySelector(".cgv-nav-bar__category");
     category.classList.toggle('active');
 }
