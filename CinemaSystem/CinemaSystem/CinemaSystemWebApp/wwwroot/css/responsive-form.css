@@ -1,0 +1,18 @@
+.cgv-responsive-form {
+    height: calc(100vh - 75px);
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+    .cgv-responsive-form .was-validated .form-control {
+        margin: 0 !important;
+    }
+
+@media screen and (max-width: 992px) {
+    .cgv-responsive-form {
+        align-items: initial;
+    }
+}

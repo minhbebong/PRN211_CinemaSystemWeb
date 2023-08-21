@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CinemaSystemWebApp.props" />
+</Project>
