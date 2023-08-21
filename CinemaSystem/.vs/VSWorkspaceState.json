@@ -2,8 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\CinemaSystem",
+    "\\CinemaSystem\\CinemaSystemWebApp",
+    "\\CinemaSystem\\CinemaSystemWebApp\\bin",
+    "\\CinemaSystem\\CinemaSystemWebApp\\Controllers",
+    "\\CinemaSystem\\CinemaSystemWebApp\\Models",
+    "\\CinemaSystem\\CinemaSystemWebApp\\Views",
+    "\\CinemaSystem\\CinemaSystemWebApp\\Views\\Home",
     "\\CinemaSystem\\CinemaSystemWF"
   ],
-  "SelectedNode": "\\CinemaSystem\\CinemaSystem.sln",
+  "SelectedNode": "\\CinemaSystem\\CinemaSystemWebApp\\Views\\Home\\Signin.cshtml",
   "PreviewInSolutionExplorer": false
 }
