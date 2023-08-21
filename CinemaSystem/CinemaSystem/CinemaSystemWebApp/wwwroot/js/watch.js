@@ -2,10 +2,10 @@ const userId = document.currentScript.getAttribute("user-id");
 const videoId = document.currentScript.getAttribute("video-id");
 
 window.addEventListener('load', () => {
-    const rates = document.querySelectorAll('.hanime-rating');
+    const rates = document.querySelectorAll('.cgv-rating');
 
     rates.forEach(rate => {
-        const stars = rate.querySelectorAll('.hanime-rating__star');
+        const stars = rate.querySelectorAll('.cgv-rating__star');
 
         stars.forEach((s, i) => i < rate.dataset.value ? s.querySelector('i').classList.add('fas') : s.querySelector('i').classList.remove('fas'));
 

@@ -1,16 +1,16 @@
-.hanime-recommended-videos__video {
+.cgv-recommended-videos__video {
     border-radius: 4px;
 }
 
-.hanime-recommended-videos__video:hover {
-    background-color: #ffffff21;
-}
+    .cgv-recommended-videos__video:hover {
+        background-color: #ffffff21;
+    }
 
-.hanime-rating {
+.cgv-rating {
     display: flex;
 }
 
-.hanime-rating__star {
+.cgv-rating__star {
     width: 30px;
     height: 30px;
     display: flex;

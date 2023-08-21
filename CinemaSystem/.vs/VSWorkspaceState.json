@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\CinemaSystem",
+    "\\CinemaSystem\\CinemaSystemWebApp",
+    "\\CinemaSystem\\CinemaSystemWebApp\\Controllers",
+    "\\CinemaSystem\\CinemaSystemWebApp\\Models",
     "\\CinemaSystem\\CinemaSystemWF"
   ],
-  "SelectedNode": "\\CinemaSystem\\CinemaSystem.sln",
+  "SelectedNode": "\\CinemaSystem\\CinemaSystemWF\\Form2.cs",
   "PreviewInSolutionExplorer": false
 }
