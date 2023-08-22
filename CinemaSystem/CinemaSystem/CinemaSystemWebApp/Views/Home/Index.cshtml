@@ -1,7 +1,44 @@
 ﻿@{
     ViewData["Title"] = "CinemaSystem";
 }
+<style>
+    .film-card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        margin: 15px;
+        transition: transform 0.3s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+        .film-card:hover {
+            transform: translateY(-5px);
+        }
+
+    .film-thumbnail {
+        width: 100%;
+        height: 200px; /* Điều chỉnh chiều cao ở đây */
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .film-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #333;
+        text-align: center;
+    }
+
+    .film-sub {
+        font-size: 14px;
+        color: #666;
+        text-align: center;
+    }
+</style>
 <div class="cgv-body__cards container-fluid">
     <div class="row">
         @foreach (Film film in ViewBag.Films)
