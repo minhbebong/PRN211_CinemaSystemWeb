@@ -23,3 +23,28 @@ G:\SWP391\gitclone\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem\CinemaSystem
 G:\SWP391\gitclone\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.pdb
 G:\SWP391\gitclone\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.genruntimeconfig.cache
 G:\SWP391\gitclone\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\ref\CinemaSystemWF.dll
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\bin\Debug\net6.0-windows\CinemaSystemWF.exe
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\bin\Debug\net6.0-windows\CinemaSystemWF.deps.json
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\bin\Debug\net6.0-windows\CinemaSystemWF.runtimeconfig.json
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\bin\Debug\net6.0-windows\CinemaSystemWF.dll
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\bin\Debug\net6.0-windows\CinemaSystemWF.pdb
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.csproj.AssemblyReference.cache
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.CheckTicket.resources
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.Form1.resources
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.Form2.resources
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.LoginForm.resources
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.MainForm.resources
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.Properties.Resources.resources
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.TemplateForm.resources
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.csproj.GenerateResource.cache
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.AssemblyInfoInputs.cache
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.AssemblyInfo.cs
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.csproj.CoreCompileInputs.cache
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.csproj.CopyComplete
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.dll
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\refint\CinemaSystemWF.dll
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.pdb
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\CinemaSystemWF.genruntimeconfig.cache
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWF\obj\Debug\net6.0-windows\ref\CinemaSystemWF.dll

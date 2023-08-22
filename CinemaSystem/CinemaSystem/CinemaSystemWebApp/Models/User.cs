@@ -5,6 +5,12 @@ namespace CinemaSystemWebApp.Models
 {
     public partial class User
     {
+        public enum Roles
+        {
+            User,
+            Staff,
+            Admin
+        }
         public User()
         {
             Tickets = new HashSet<Ticket>();

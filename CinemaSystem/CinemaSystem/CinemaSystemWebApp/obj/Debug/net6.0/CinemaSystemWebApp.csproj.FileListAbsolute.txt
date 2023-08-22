@@ -136,3 +136,14 @@ G:\SWP391\gitclone\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem\CinemaSystem
 G:\SWP391\gitclone\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\CinemaSystemWebApp.pdb
 G:\SWP391\gitclone\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\CinemaSystemWebApp.genruntimeconfig.cache
 G:\SWP391\gitclone\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\ref\CinemaSystemWebApp.dll
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\CinemaSystemWebApp.csproj.AssemblyReference.cache
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\CinemaSystemWebApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\CinemaSystemWebApp.AssemblyInfoInputs.cache
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\CinemaSystemWebApp.AssemblyInfo.cs
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\CinemaSystemWebApp.csproj.CoreCompileInputs.cache
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\CinemaSystemWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\CinemaSystemWebApp.RazorAssemblyInfo.cache
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\CinemaSystemWebApp.RazorAssemblyInfo.cs
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\CinemaSystemWebApp.dll
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\refint\CinemaSystemWebApp.dll
+C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\CinemaSystemWebApp.pdb
