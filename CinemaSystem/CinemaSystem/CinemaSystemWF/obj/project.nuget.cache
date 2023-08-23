@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FxCBFoSFvzuIweiJRgB3kw13iXtd3l2ouMkFlD48BfzakfmvCZWmkUos0pMRfM7PFCt7M+Ub1bBpUCb/5OLhOw==",
+  "dgSpecHash": "eZmvymKC1oZ/j05VfTR5L4P0IWk4hZfnEqEqs7HM5zFdQYGxmYKuQ5KISyAz2MEE+rkHimyvCQitQvjti7jqbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tr498\\AssPRJ\\Version 1\\PRN211_CinemaSystemWeb\\Cinemasystem\\CinemaSystem\\CinemaSystemWF\\CinemaSystemWF.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Documents\\GitHub\\PRN211_CinemaSystemWeb\\Cinemasystem\\CinemaSystem\\CinemaSystemWF\\CinemaSystemWF.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tr498\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

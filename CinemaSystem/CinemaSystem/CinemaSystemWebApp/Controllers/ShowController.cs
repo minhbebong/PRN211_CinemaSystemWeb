@@ -1,5 +1,5 @@
-﻿using CinemaSystemWebapp.Models;
-using CinemaSystemWebapp.Utils;
+﻿using CinemaSystemWebapp.Utils;
+using CinemaSystemWebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

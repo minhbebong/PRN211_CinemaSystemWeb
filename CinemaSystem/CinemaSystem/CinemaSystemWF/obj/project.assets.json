@@ -52,23 +52,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tr498\\.nuget\\packages\\": {},
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tr498\\AssPRJ\\Version 1\\PRN211_CinemaSystemWeb\\Cinemasystem\\CinemaSystem\\CinemaSystemWF\\CinemaSystemWF.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\PRN211_CinemaSystemWeb\\Cinemasystem\\CinemaSystem\\CinemaSystemWF\\CinemaSystemWF.csproj",
       "projectName": "CinemaSystemWF",
-      "projectPath": "C:\\Users\\tr498\\AssPRJ\\Version 1\\PRN211_CinemaSystemWeb\\Cinemasystem\\CinemaSystem\\CinemaSystemWF\\CinemaSystemWF.csproj",
-      "packagesPath": "C:\\Users\\tr498\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tr498\\AssPRJ\\Version 1\\PRN211_CinemaSystemWeb\\Cinemasystem\\CinemaSystem\\CinemaSystemWF\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\PRN211_CinemaSystemWeb\\Cinemasystem\\CinemaSystem\\CinemaSystemWF\\CinemaSystemWF.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\PRN211_CinemaSystemWeb\\Cinemasystem\\CinemaSystem\\CinemaSystemWF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tr498\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -119,7 +119,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
