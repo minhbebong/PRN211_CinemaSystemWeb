@@ -30,15 +30,15 @@
 
 <body>
 
-    <div class="cgv-nav-bar__overlay"></div>
+    <div class="hanime-nav-bar__overlay"></div>
 
-    <header class="cgv-header d-flex align-items-center justify-content-between">
+    <header class="hanime-header d-flex align-items-center justify-content-between">
         <div class="d-flex align-items-center">
-            <div class="cgv-header__nav-bar-btn">
-                <i class="fa-solid fa-bars fa-2xl cgv-header__nav-bar-btn--icon"></i>
+            <div class="hanime-header__nav-bar-btn">
+                <i class="fa-solid fa-bars fa-2xl hanime-header__nav-bar-btn--icon"></i>
             </div>
 
-            <a class="cgv-header__logo" style="width: 120px" asp-controller="Home" asp-action="Index">
+            <a class="hanime-header__logo" style="width: 120px" asp-controller="Home" asp-action="Index">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 16" style="width: 100%">
                     <path style="fill: red;" d="M12,2V16H10a2,2,0,0,1-2-2V10H4v6H2a2,2,0,0,1-2-2V0H2a2,2,0,0,0,.59,1.41A2,2,0,0,0,4,2V6H8V0h2a2,2,0,0,0,.59,1.41A2,2,0,0,0,12,2Z" />
                     <path style="fill: #fff;" d="M24.59,1.41A2,2,0,0,1,24,0H16a2,2,0,0,0-1.41.59A2,2,0,0,0,14,2V14a2,2,0,0,0,2,2h2V10h4v4a2,2,0,0,0,2,2h2V2A2,2,0,0,1,24.59,1.41ZM22,4a2,2,0,0,1-2,2H18V4a2,2,0,0,1,2-2h0a2,2,0,0,1,2,2Z" />
@@ -52,9 +52,9 @@
             </a>
         </div>
 
-        <form class="cgv-header__search-bar" asp-action="Search" asp-controller="Home" method="get">
-            <input type="text" name="q" value="@ViewBag.SearchQueryString" class="cgv-header__search-bar--input" placeholder="Search" />
-            <button type="submit" class="cgv-header__search-bar--button">
+        <form class="hanime-header__search-bar" asp-action="Search" asp-controller="Home" method="get">
+            <input type="text" name="q" value="@ViewBag.SearchQueryString" class="hanime-header__search-bar--input" placeholder="Search" />
+            <button type="submit" class="hanime-header__search-bar--button">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
         </form>
@@ -62,7 +62,7 @@
         <div class="d-flex align-items-center">
             @if (ViewBag.User is not null)
             {
-                <div class="cgv-header__account">
+                <div class="hanime-header__account">
                     <a class="dropdown" role="button" href="#" data-mdb-toggle="dropdown" aria-expanded="false">
                         <img src="@ViewBag.User.AvatarUrl"
                          alt="avatar" width="30" height="30" class="rounded-circle" style="object-fit: cover; object-position: center;">
@@ -94,13 +94,13 @@
         </div>
     </header>
 
-    <nav class="cgv-nav-bar" data-button-class="cgv-header__nav-bar-btn">
-        <div class="cgv-nav-bar__nav-btn-and-logo d-flex align-items-center">
-            <div class="cgv-header__nav-bar-btn">
-                <i class="fa-solid fa-bars fa-2xl cgv-header__nav-bar-btn--icon"></i>
+    <nav class="hanime-nav-bar" data-button-class="hanime-header__nav-bar-btn">
+        <div class="hanime-nav-bar__nav-btn-and-logo d-flex align-items-center">
+            <div class="hanime-header__nav-bar-btn">
+                <i class="fa-solid fa-bars fa-2xl hanime-header__nav-bar-btn--icon"></i>
             </div>
 
-            <a class="cgv-header__logo" style="width: 120px" asp-controller="Home" asp-action="Index">
+            <a class="hanime-header__logo" style="width: 120px" asp-controller="Home" asp-action="Index">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 16" style="width: 100%">
                     <path style="fill: red;" d="M12,2V16H10a2,2,0,0,1-2-2V10H4v6H2a2,2,0,0,1-2-2V0H2a2,2,0,0,0,.59,1.41A2,2,0,0,0,4,2V6H8V0h2a2,2,0,0,0,.59,1.41A2,2,0,0,0,12,2Z" />
                     <path style="fill: #fff;" d="M24.59,1.41A2,2,0,0,1,24,0H16a2,2,0,0,0-1.41.59A2,2,0,0,0,14,2V14a2,2,0,0,0,2,2h2V10h4v4a2,2,0,0,0,2,2h2V2A2,2,0,0,1,24.59,1.41ZM22,4a2,2,0,0,1-2,2H18V4a2,2,0,0,1,2-2h0a2,2,0,0,1,2,2Z" />
@@ -114,23 +114,23 @@
             </a>
         </div>
 
-        <div class="cgv-nav-bar__choices">
-            <a asp-controller="Home" asp-action="Index" class="cgv-nav-bar__link">
+        <div class="hanime-nav-bar__choices">
+            <a asp-controller="Home" asp-action="Index" class="hanime-nav-bar__link">
                 <i class="fa-solid fa-home"></i>
                 <span>Home</span>
             </a>
 
-            <a class="cgv-nav-bar__link position-relative" onmousedown="toggleCategory()">
+            <a class="hanime-nav-bar__link position-relative" onmousedown="toggleCategory()">
                 <i class="fa-solid fa-list"></i>
                 <span>Category</span>
 
                 <i class="fa-solid fa-caret-down" style="position: absolute; right: 0;"></i>
             </a>
 
-            <div class="cgv-nav-bar__category">
+            <div class="hanime-nav-bar__category">
                 @foreach (Category category in ViewBag.Categories)
                 {
-                    <a asp-controller="Category" asp-action="Index" asp-route-id="@category.Id" class="cgv-nav-bar__category--link">
+                    <a asp-controller="Category" asp-action="Index" asp-route-id="@category.Id" class="hanime-nav-bar__category--link">
                         @category.Name
                     </a>
                 }
@@ -138,19 +138,19 @@
 
             @if (ViewBag.User is not null)
             {
-                <a asp-action="Tickets" asp-controller="User" class="cgv-nav-bar__link">
+                <a asp-action="Tickets" asp-controller="User" class="hanime-nav-bar__link">
                     <i class="fa-solid fa-ticket"></i>
                     <span>My Tickets</span>
                 </a>
 
-                <a asp-action="Setting" asp-controller="User" class="cgv-nav-bar__link">
+                <a asp-action="Setting" asp-controller="User" class="hanime-nav-bar__link">
                     <i class="fa-solid fa-cog"></i>
                     <span>Setting</span>
                 </a>
 
                 @if (ViewBag.User?.Role == (int)CinemaSystemWebApp.Models.User.Roles.Admin)
                 {
-                    <a asp-action="Index" asp-controller="Admin" class="cgv-nav-bar__link">
+                    <a asp-action="Index" asp-controller="Admin" class="hanime-nav-bar__link">
                         <i class="fa-solid fa-crown"></i>
                         <span>Admin pages</span>
                     </a>
@@ -160,18 +160,18 @@
 
             @if (ViewBag.User is null)
             {
-                <a asp-controller="Home" asp-action="Signin" class="cgv-nav-bar__link">
+                <a asp-controller="Home" asp-action="Signin" class="hanime-nav-bar__link">
                     <i class="fa-solid fa-right-to-bracket"></i>
                     <span>Login</span>
                 </a>
-                <a asp-controller="Home" asp-action="Signup" class="cgv-nav-bar__link">
+                <a asp-controller="Home" asp-action="Signup" class="hanime-nav-bar__link">
                     <i class="fa-solid fa-user-plus"></i>
                     <span>Register</span>
                 </a>
             }
             else
             {
-                <a asp-controller="Home" asp-action="Signout" class="cgv-nav-bar__link">
+                <a asp-controller="Home" asp-action="Signout" class="hanime-nav-bar__link">
                     <i class="fa-solid fa-sign-out-alt"></i>
                     <span>Logout</span>
                 </a>
@@ -179,8 +179,8 @@
         </div>
     </nav>
 
-    <hr class="cgv-hr">
-    <section class="cgv-body">
+    <hr class="hanime-hr">
+    <section class="hanime-body">
         @RenderBody()
     </section>
 
