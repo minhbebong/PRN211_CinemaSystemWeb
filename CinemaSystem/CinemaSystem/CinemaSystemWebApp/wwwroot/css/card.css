@@ -1,12 +1,13 @@
 :root {
-    --cgv-card-item-hover-background-color: #00000080;
-    --cgv-card-item-sub-font-size: 12px;
-    --cgv-card-item-sub-color: gray;
+    --hanime-card-item-hover-background-color: #00000080;
+    --hanime-card-item-sub-font-size: 12px;
+    --hanime-card-item-sub-color: gray;
 }
 
-.cgv-body__card-item {
-    background-color: var(--cgv-body-background-color);
+.hanime-body__card-item {
+    background-color: var(--hanime-body-background-color);
     color: white;
+
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -14,15 +15,15 @@
     transition: all 0.3s ease-in-out;
 }
 
-    .cgv-body__card-item:hover {
-        background-color: var(--cgv-card-item-hover-background-color);
-    }
+.hanime-body__card-item:hover {
+    background-color: var(--hanime-card-item-hover-background-color);
+}
 
-.cgv-body__card-item--body {
+.hanime-body__card-item--body {
     padding-top: 5px;
 }
 
-.cgv-body__card-item--body--sub {
-    font-size: var(--cgv-card-item-sub-font-size);
-    color: var(--cgv-card-item-sub-color);
+.hanime-body__card-item--body--sub {
+    font-size: var(--hanime-card-item-sub-font-size);
+    color: var(--hanime-card-item-sub-color);
 }
