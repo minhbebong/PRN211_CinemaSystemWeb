@@ -147,3 +147,4 @@ C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem
 C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\CinemaSystemWebApp.dll
 C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\refint\CinemaSystemWebApp.dll
 C:\Users\tr498\AssPRJ\Version 1\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\CinemaSystemWebApp.pdb
+E:\Documents\GitHub\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem\CinemaSystemWebApp\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css

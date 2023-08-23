@@ -1,4 +1,4 @@
-﻿using CinemaSystemWebapp.Utils;
+﻿using CinemaSystemWebApp.Utils;
 using CinemaSystemWebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;

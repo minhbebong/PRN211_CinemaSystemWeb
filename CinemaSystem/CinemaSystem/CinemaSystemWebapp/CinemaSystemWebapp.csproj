@@ -14,6 +14,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Admin\Index.cshtml" />
+    <None Include="Views\Category\Index.cshtml" />
+    <None Include="Views\Film\Index.cshtml" />
+    <None Include="Views\Home\ForgotPassword.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="Views\Home\ResetPassword.cshtml" />
+    <None Include="Views\Home\Search.cshtml" />
+    <None Include="Views\Home\Signin.cshtml" />
+    <None Include="Views\Home\Signout.cshtml" />
+    <None Include="Views\Home\Signup.cshtml" />
+    <None Include="Views\Show\Index.cshtml" />
+    <None Include="Views\User\Setting.cshtml" />
+    <None Include="Views\User\Tickets.cshtml" />
     <None Include="wwwroot\js\site.js" />
     <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
     <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
