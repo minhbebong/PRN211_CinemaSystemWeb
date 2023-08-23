@@ -28,99 +28,107 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label2 = new System.Windows.Forms.Label();
-            this.TextBoxEmail = new System.Windows.Forms.TextBox();
-            this.TextBoxPassword = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.LoginBtn = new System.Windows.Forms.Button();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            label2 = new Label();
+            TextBoxEmail = new TextBox();
+            TextBoxPassword = new TextBox();
+            label3 = new Label();
+            LoginBtn = new Button();
+            linkLabel1 = new LinkLabel();
+            label4 = new Label();
+            SuspendLayout();
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 102);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Email";
+            label2.AutoSize = true;
+            label2.Location = new Point(129, 235);
+            label2.Name = "label2";
+            label2.Size = new Size(46, 20);
+            label2.TabIndex = 3;
+            label2.Text = "Email";
             // 
             // TextBoxEmail
             // 
-            this.TextBoxEmail.Location = new System.Drawing.Point(75, 99);
-            this.TextBoxEmail.Name = "TextBoxEmail";
-            this.TextBoxEmail.Size = new System.Drawing.Size(313, 23);
-            this.TextBoxEmail.TabIndex = 4;
+            TextBoxEmail.Location = new Point(241, 232);
+            TextBoxEmail.Margin = new Padding(3, 4, 3, 4);
+            TextBoxEmail.Name = "TextBoxEmail";
+            TextBoxEmail.Size = new Size(357, 27);
+            TextBoxEmail.TabIndex = 4;
             // 
             // TextBoxPassword
             // 
-            this.TextBoxPassword.Location = new System.Drawing.Point(75, 128);
-            this.TextBoxPassword.Name = "TextBoxPassword";
-            this.TextBoxPassword.PasswordChar = '*';
-            this.TextBoxPassword.Size = new System.Drawing.Size(313, 23);
-            this.TextBoxPassword.TabIndex = 5;
+            TextBoxPassword.Location = new Point(241, 291);
+            TextBoxPassword.Margin = new Padding(3, 4, 3, 4);
+            TextBoxPassword.Name = "TextBoxPassword";
+            TextBoxPassword.PasswordChar = '*';
+            TextBoxPassword.Size = new Size(357, 27);
+            TextBoxPassword.TabIndex = 5;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 131);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 15);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Password";
+            label3.AutoSize = true;
+            label3.Location = new Point(117, 294);
+            label3.Name = "label3";
+            label3.Size = new Size(70, 20);
+            label3.TabIndex = 6;
+            label3.Text = "Password";
             // 
             // LoginBtn
             // 
-            this.LoginBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.LoginBtn.Location = new System.Drawing.Point(130, 170);
-            this.LoginBtn.Name = "LoginBtn";
-            this.LoginBtn.Size = new System.Drawing.Size(140, 40);
-            this.LoginBtn.TabIndex = 7;
-            this.LoginBtn.Text = "Login";
-            this.LoginBtn.UseVisualStyleBackColor = true;
-            this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
+            LoginBtn.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            LoginBtn.Location = new Point(315, 368);
+            LoginBtn.Margin = new Padding(3, 4, 3, 4);
+            LoginBtn.Name = "LoginBtn";
+            LoginBtn.Size = new Size(204, 35);
+            LoginBtn.TabIndex = 7;
+            LoginBtn.Text = "Login";
+            LoginBtn.UseVisualStyleBackColor = true;
+            LoginBtn.Click += LoginBtn_Click;
             // 
             // linkLabel1
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(288, 246);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(100, 15);
-            this.linkLabel1.TabIndex = 8;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Forgot password?";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ForgotPasswordLink_LinkClicked);
+            linkLabel1.AutoSize = true;
+            linkLabel1.Location = new Point(523, 431);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(127, 20);
+            linkLabel1.TabIndex = 8;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Forgot password?";
+            linkLabel1.LinkClicked += ForgotPasswordLink_LinkClicked;
             // 
             // label4
             // 
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(12, 33);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(376, 42);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Login";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            label4.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(203, 111);
+            label4.Name = "label4";
+            label4.Size = new Size(430, 56);
+            label4.TabIndex = 2;
+            label4.Text = "Login";
+            label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // LoginForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(400, 270);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.LoginBtn);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.TextBoxPassword);
-            this.Controls.Add(this.TextBoxEmail);
-            this.Controls.Add(this.label2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "LoginForm";
-            this.Text = "Login";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(814, 643);
+            Controls.Add(label4);
+            Controls.Add(linkLabel1);
+            Controls.Add(LoginBtn);
+            Controls.Add(label3);
+            Controls.Add(TextBoxPassword);
+            Controls.Add(TextBoxEmail);
+            Controls.Add(label2);
+            Margin = new Padding(3, 5, 3, 5);
+            Name = "LoginForm";
+            Text = "Login";
+            Controls.SetChildIndex(label2, 0);
+            Controls.SetChildIndex(TextBoxEmail, 0);
+            Controls.SetChildIndex(TextBoxPassword, 0);
+            Controls.SetChildIndex(label3, 0);
+            Controls.SetChildIndex(LoginBtn, 0);
+            Controls.SetChildIndex(linkLabel1, 0);
+            Controls.SetChildIndex(label4, 0);
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
