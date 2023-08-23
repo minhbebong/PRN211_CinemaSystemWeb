@@ -1,7 +1,7 @@
-﻿using CinemaSystemWebapp.Models;
+﻿using CinemaSystemWebApp.Models;
 using Newtonsoft.Json;
 
-namespace CinemaSystemWebapp.Utils
+namespace CinemaSystemWebApp.Utils
 {
     public static class Authentication
     {

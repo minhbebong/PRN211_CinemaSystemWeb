@@ -1,0 +1,16 @@
+﻿@using Lab1.Models
+@model Lab1.Models.Account
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h1>Login system</h1>
+
+@if (TempData["msg"] != null)
+{
+    <p style="color:red">@TempData["msg"]</p>
+}
+
+<form method="post" asp-controller="Account" asp-action="Login">
+    Email * <input asp-for="Email" /><span asp-validation-for="Email"></span><br />
+    Password * <input asp-for="Password" /><span asp-validation-for="Password"></span><br />
+    <input type="submit" value="Login" />
+</form>
