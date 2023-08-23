@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace CinemaSystemWebapp.Controllers
+namespace CinemaSystemWebApp.Controllers
 {
     public class FilmController : Controller
     {

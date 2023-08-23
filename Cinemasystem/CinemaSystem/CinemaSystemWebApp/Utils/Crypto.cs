@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace CinemaSystemWebapp.Utils
+namespace CinemaSystemWebApp.Utils
 {
     public static class Crypto
     {
