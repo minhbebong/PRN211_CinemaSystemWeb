@@ -1,4 +1,5 @@
-﻿using CinemeSystemWF.Requests;
+﻿using CinemaSystemWF.Models;
+using CinemeSystemWF.Requests;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,19 +21,31 @@ namespace CinemaSystemWF
 
         private async void MainForm_Load(object sender, EventArgs e)
         {
-            var response = await ShowRequest.Instance.GetShows(TimeSpan.FromHours(1)).ConfigureAwait(false);
+            //var response = await ShowRequest.Instance.GetShows(TimeSpan.FromHours(1)).ConfigureAwait(false);
 
 
-            this.Invoke(() =>
+            //this.Invoke(() =>
+            //{
+            //    if (response.Success)
+            //    {
+            //        foreach (var show in response.Shows)
+            //        {
+            //            DGShows.Rows.Add(show.ID, show.Film, show.Start, show.End, show.TicketPrice, show.Room, "Check");
+            //        }
+            //    }
+            //});
+            using (var context = new CinemaSystemContext()) // Replace with your actual DbContext class
             {
-                if (response.Success)
+                var shows = context.Shows.ToList();
+
+                this.Invoke(() =>
                 {
-                    foreach (var show in response.Shows)
+                    foreach (var show in shows)
                     {
-                        DGShows.Rows.Add(show.ID, show.Film, show.Start, show.End, show.TicketPrice, show.Room, "Check");
+                        DGShows.Rows.Add(show.Id, show.FilmId, show.Start, show.End, show.TicketPrice, show.RoomId, "Check");
                     }
-                }
-            });
+                });
+            }
         }
 
         private void DGShows_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -52,3 +65,4 @@ namespace CinemaSystemWF
         }
     }
 }
+
