@@ -2,12 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\CinemaSystem",
-    "\\CinemaSystem\\CinemaSystemWebApp\\bin",
+    "\\CinemaSystem\\CinemaSystemWebApp",
     "\\CinemaSystem\\CinemaSystemWebApp\\Controllers",
     "\\CinemaSystem\\CinemaSystemWebApp\\Models",
     "\\CinemaSystem\\CinemaSystemWebApp\\Views",
     "\\CinemaSystem\\CinemaSystemWebApp\\Views\\Home"
   ],
-  "SelectedNode": "\\CinemaSystem\\CinemaSystemWF",
+  "SelectedNode": "\\CinemaSystem\\CinemaSystemWebApp\\Controllers\\AdminController.cs",
   "PreviewInSolutionExplorer": false
 }
