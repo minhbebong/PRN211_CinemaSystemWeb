@@ -1,4 +1,5 @@
 ﻿using CinemaSystemWF;
+using CinemaSystemWF.Models;
 using CinemeSystemWF.Requests;
 using System;
 using System.Collections.Generic;
@@ -36,22 +37,39 @@ namespace CinemaSystemWF
                 MessageBox.Show("Please fill all the fields", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            using (var context = new CinemaSystemContext()) // Replace with your actual DbContext class
+            {
+                var user = context.Users.FirstOrDefault(u => u.Email == email && u.Password == password);
 
-            var result = await AuthRequest.Instance.Login(email, password).ConfigureAwait(false);
-            if (result.Success)
-            {
-                Program.Token = result.Token;
-                this.Invoke(() =>
+                if (user != null)
                 {
+                    // Login successful
                     this.Hide();
-                    MainForm form = new();
+                    MainForm form = new MainForm();
                     form.Show();
-                });
-            }
-            else
-            {
-                MessageBox.Show(result.Message, "Error");
+                }
+                else
+                {
+                    MessageBox.Show("Invalid email or password", "Error");
+                }
+
+                //    var result = await AuthRequest.Instance.Login(email, password).ConfigureAwait(false);
+                //    if (result.Success)
+                //    {
+                //        Program.Token = result.Token;
+                //        this.Invoke(() =>
+                //        {
+                //            this.Hide();
+                //            MainForm form = new();
+                //            form.Show();
+                //        });
+                //    }
+                //    else
+                //    {
+                //        MessageBox.Show(result.Message, "Error");
+                //    }
+                //}
             }
         }
     }
-}
+    }
