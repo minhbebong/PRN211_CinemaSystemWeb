@@ -1,4 +1,5 @@
-﻿using CinemeSystemWF;
+﻿using CinemaSystemWF.Models;
+using CinemeSystemWF;
 using CinemeSystemWF.Requests;
 using System;
 using System.Collections.Generic;
@@ -33,21 +34,24 @@ namespace CinemaSystemWF
                 return;
             }
 
-            var response = await ShowRequest.Instance.CheckTicket(Program.Token, showID, email, otp).ConfigureAwait(false);
+            using (var context = new CinemaSystemContext()) // Thay YourDbContext bằng DbContext thực tế
+            {
+                var ticket = context.Tickets.FirstOrDefault(t => t.Show.Id == showID && t.User.Email == email && t.Otp == otp);
+                if (ticket != null)
+                {
+                    MessageBox.Show("Ticket is valid");
 
-            if (response.Success)
-            {
-                MessageBox.Show("Ticket is valid");
-            }
-            else
-            {
-                MessageBox.Show(response.Message);
-            }
+                    // Thêm thông tin log vào DataGridView
+                    DGLogs.Rows.Add(DateTime.Now, email,"đang chiếu" );
+                }
+                else
+                {
+                    MessageBox.Show("Invalid ticket");
 
-            this.Invoke(() =>
-            {
-                DGLogs.Rows.Add(DateTime.Now, email, response.Success);
-            });
+                   
+                }
+            }
         }
     }
-}
+    }
+
