@@ -1,9 +1,10 @@
-﻿using CinemaSystemWebapp.Models;
-using CinemaSystemWebapp.Utils;
+﻿using CinemaSystemWebApp.Utils;
+using CinemaSystemWebApp.Models;
+using CinemaSystemWebApp.Utils;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace CinemaSystemWebapp.Controllers
+namespace CinemaSystemWebApp.Controllers
 {
     public class UserController : Controller
     {
