@@ -9,97 +9,97 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CinemaSystemWebApp
 build_property.RootNamespace = CinemaSystemWebApp
-build_property.ProjectDir = G:\SWP391\gitclone\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem\CinemaSystemWebApp\
+build_property.ProjectDir = C:\Users\ASUS\Documents\GitHub\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = G:\SWP391\gitclone\PRN211_CinemaSystemWeb\CinemaSystem\CinemaSystem\CinemaSystemWebApp
+build_property.MSBuildProjectDirectory = C:\Users\ASUS\Documents\GitHub\PRN211_CinemaSystemWeb\Cinemasystem\CinemaSystem\CinemaSystemWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Pages/Error.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Pages/Index.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Pages/Privacy.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Pages/_ViewImports.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Pages/_ViewStart.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Views/Film/Index.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Views/Film/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Views/Home/ForgotPassword.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Views/Home/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Views/Home/Index.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Views/Home/Privacy.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Views/Home/ResetPassword.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Views/Home/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Views/Home/Search.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Views/Home/Search.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWFyY2guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Views/Home/Signin.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Views/Home/Signin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Views/Home/Signout.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Views/Home/Signout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWdub3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Views/Home/Signup.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Views/Home/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Views/User/Setting.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Views/User/Setting.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTZXR0aW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Views/User/Tickets.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Views/User/Tickets.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxUaWNrZXRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Views/_ViewImports.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Views/_ViewStart.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Pages/Shared/_Layout.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-e3tlvpaifq
 
-[G:/SWP391/gitclone/PRN211_CinemaSystemWeb/CinemaSystem/CinemaSystem/CinemaSystemWebApp/Views/Shared/_Layout.cshtml]
+[C:/Users/ASUS/Documents/GitHub/PRN211_CinemaSystemWeb/Cinemasystem/CinemaSystem/CinemaSystemWebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qw5edrsf55
