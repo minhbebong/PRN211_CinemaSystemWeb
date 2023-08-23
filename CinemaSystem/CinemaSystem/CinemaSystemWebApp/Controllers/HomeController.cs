@@ -1,11 +1,11 @@
 ﻿using CinemaSystemWebApp.Models;
-using CinemaSystemWebapp.Utils;
+using CinemaSystemWebApp.Utils;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using System.Diagnostics;
 using System.Net.Mail;
 
-namespace CinemaSystemWebapp.Controllers
+namespace CinemaSystemWebApp.Controllers
 {
     public class HomeController : Controller
     {
