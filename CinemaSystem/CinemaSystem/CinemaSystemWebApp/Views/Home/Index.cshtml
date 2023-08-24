@@ -1,17 +1,52 @@
 ﻿@{
     ViewData["Title"] = "CinemaSystem";
 }
+<style>
+    .film-card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        margin: 15px;
+        transition: transform 0.3s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-<div class="hanime-body__cards container-fluid">
-    <div class="row">
+        .film-card:hover {
+            transform: translateY(-5px);
+        }
+
+    .film-thumbnail {
+        width: 100%;
+        height: 200px; /* Điều chỉnh chiều cao ở đây */
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .film-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #333;
+        text-align: center;
+    }
+
+    .film-sub {
+        font-size: 14px;
+        color: #666;
+        text-align: center;
+    }
+</style>
+<div class="cgv-body__cards container-fluid">
+    <div class="row" style="justify-content:center">
         @foreach (Film film in ViewBag.Films)
         {
-            <a asp-controller="Film" asp-action="Index" asp-route-id="@film.Id" class="hanime-body__card-item col-xl-2 col-md-3 col-sm-6 col-xs-12">
-                <img class="hanime-body__card-item--thumbnail" style="object-position: center; object-fit: cover;" height="200" src="@film.ImageUrl">
-                <div class="hanime-body__card-item--body">
-                    <p class="hanime-body__card-item--body--title">@film.Name</p>
-                    <p class="hanime-body__card-item--body--sub">@film.ReleaseDate</p>
-                </div>
+            <a asp-controller="Film" asp-action="Index" asp-route-id="@film.Id" class="film-card col-xl-2 col-md-3 col-sm-6 col-xs-12">
+                <img class="film-thumbnail" src="@film.ImageUrl">
+                <div class="film-title">@film.Name</div>
+                <div class="film-sub">@film.ReleaseDate</div>
             </a>
         }
     </div>
