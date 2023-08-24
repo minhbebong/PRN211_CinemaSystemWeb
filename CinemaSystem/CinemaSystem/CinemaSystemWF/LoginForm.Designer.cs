@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             label2 = new Label();
             TextBoxEmail = new TextBox();
             TextBoxPassword = new TextBox();
@@ -35,12 +36,16 @@
             LoginBtn = new Button();
             linkLabel1 = new LinkLabel();
             label4 = new Label();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(129, 235);
+            label2.Location = new Point(142, 256);
             label2.Name = "label2";
             label2.Size = new Size(46, 20);
             label2.TabIndex = 3;
@@ -48,7 +53,7 @@
             // 
             // TextBoxEmail
             // 
-            TextBoxEmail.Location = new Point(241, 232);
+            TextBoxEmail.Location = new Point(216, 249);
             TextBoxEmail.Margin = new Padding(3, 4, 3, 4);
             TextBoxEmail.Name = "TextBoxEmail";
             TextBoxEmail.Size = new Size(357, 27);
@@ -56,17 +61,17 @@
             // 
             // TextBoxPassword
             // 
-            TextBoxPassword.Location = new Point(241, 291);
+            TextBoxPassword.Location = new Point(218, 291);
             TextBoxPassword.Margin = new Padding(3, 4, 3, 4);
             TextBoxPassword.Name = "TextBoxPassword";
             TextBoxPassword.PasswordChar = '*';
-            TextBoxPassword.Size = new Size(357, 27);
+            TextBoxPassword.Size = new Size(355, 27);
             TextBoxPassword.TabIndex = 5;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(117, 294);
+            label3.Location = new Point(142, 298);
             label3.Name = "label3";
             label3.Size = new Size(70, 20);
             label3.TabIndex = 6;
@@ -75,10 +80,10 @@
             // LoginBtn
             // 
             LoginBtn.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            LoginBtn.Location = new Point(315, 368);
+            LoginBtn.Location = new Point(273, 350);
             LoginBtn.Margin = new Padding(3, 4, 3, 4);
             LoginBtn.Name = "LoginBtn";
-            LoginBtn.Size = new Size(204, 35);
+            LoginBtn.Size = new Size(226, 66);
             LoginBtn.TabIndex = 7;
             LoginBtn.Text = "Login";
             LoginBtn.UseVisualStyleBackColor = true;
@@ -98,18 +103,40 @@
             // label4
             // 
             label4.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(203, 111);
+            label4.Location = new Point(173, 154);
             label4.Name = "label4";
             label4.Size = new Size(430, 56);
             label4.TabIndex = 2;
             label4.Text = "Login";
             label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(83, 232);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(53, 53);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 9;
+            pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(83, 291);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(53, 40);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 10;
+            pictureBox2.TabStop = false;
+            // 
             // LoginForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(814, 643);
+            Controls.Add(pictureBox2);
+            Controls.Add(pictureBox1);
             Controls.Add(label4);
             Controls.Add(linkLabel1);
             Controls.Add(LoginBtn);
@@ -127,6 +154,10 @@
             Controls.SetChildIndex(LoginBtn, 0);
             Controls.SetChildIndex(linkLabel1, 0);
             Controls.SetChildIndex(label4, 0);
+            Controls.SetChildIndex(pictureBox1, 0);
+            Controls.SetChildIndex(pictureBox2, 0);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -140,5 +171,7 @@
         private Button LoginBtn;
         private LinkLabel linkLabel1;
         private Label label4;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }
