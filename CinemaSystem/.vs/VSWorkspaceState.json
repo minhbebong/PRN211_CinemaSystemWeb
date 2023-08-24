@@ -6,8 +6,9 @@
     "\\CinemaSystem\\CinemaSystemWebApp\\Controllers",
     "\\CinemaSystem\\CinemaSystemWebApp\\Models",
     "\\CinemaSystem\\CinemaSystemWebApp\\Views",
+    "\\CinemaSystem\\CinemaSystemWebApp\\Views\\Admin",
     "\\CinemaSystem\\CinemaSystemWebApp\\Views\\Home"
   ],
-  "SelectedNode": "\\CinemaSystem\\CinemaSystemWebApp\\Controllers\\AdminController.cs",
+  "SelectedNode": "\\CinemaSystem\\CinemaSystemWebApp\\Views\\_ViewImports.cshtml",
   "PreviewInSolutionExplorer": false
 }

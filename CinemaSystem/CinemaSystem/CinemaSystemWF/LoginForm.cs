@@ -53,6 +53,7 @@ namespace CinemaSystemWF
                     MessageBox.Show("Invalid email or password", "Error");
                 }
 
+
                 //    var result = await AuthRequest.Instance.Login(email, password).ConfigureAwait(false);
                 //    if (result.Success)
                 //    {
@@ -72,4 +73,4 @@ namespace CinemaSystemWF
             }
         }
     }
-    }
+}
