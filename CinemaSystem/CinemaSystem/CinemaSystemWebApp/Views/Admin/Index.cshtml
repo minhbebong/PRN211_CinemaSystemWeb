@@ -3,6 +3,9 @@
     Layout = null;
     var activeTab = @ViewBag.ActiveTab ?? "category";
 }
+@{
+    var categories = ViewBag.Categories as List<Category>;
+}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -118,7 +121,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (Category category in ViewBag.Categories)
+                                @foreach (Category category in categories)
                                 {
                                     <tr>
                                         <form asp-action="Category" asp-controller="Admin">
@@ -187,7 +190,7 @@
 
                             <div class="form-floating mb-3">
                                 <select name="categories" multiple class="form-select" style="height: 200px">
-                                    @foreach (Category category in (ViewBag.Categories as List<Category>)!.OrderBy(e => e.Name))
+                                    @foreach (Category category in (ViewBag.Categories as List<Category>)?.OrderBy(e => e.Name))
                                     {
                                         <option value="@category.Id">
                                             @category.Name

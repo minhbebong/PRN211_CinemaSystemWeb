@@ -23,8 +23,9 @@
     <None Include="Views\Home\ResetPassword.cshtml" />
     <None Include="Views\Home\Search.cshtml" />
     <None Include="Views\Home\Signin.cshtml" />
-    <None Include="Views\Home\Signout.cshtml" />
     <None Include="Views\Home\Signup.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
     <None Include="Views\Show\Index.cshtml" />
     <None Include="Views\User\Setting.cshtml" />
     <None Include="Views\User\Tickets.cshtml" />
