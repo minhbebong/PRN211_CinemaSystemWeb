@@ -3,6 +3,89 @@
 @{
     ViewData["Title"] = Model.Name;
 }
+<style>
+    .container {
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    h1 {
+        
+       
+      font-size: 24px;
+        text-align: center;
+        color: #333;
+    }
+
+    .text-muted {
+        color: #777;
+    }
+
+    .cgv-body__cards {
+        margin-top: 20px;
+    }
+
+    .cgv-body__card-item {
+        text-decoration: none;
+        color: inherit;
+        margin: 10px;
+        
+       
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cgv-body__card-item:hover {
+        background-color: #f2f2f2;
+    }
+
+    .cgv-body__card-item--thumbnail {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .cgv-body__card-item--body {
+        text-align: center;
+    }
+
+    .cgv-body__card-item--body--title {
+        font-weight: bold;
+        margin: 5px 0;
+    }
+
+    .cgv-body__card-item--body--sub {
+        color: #777;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col-xl-3, .col-md-4, .col-sm-6, .col-xs-12 {
+        flex: 0 0 calc(25% - 20px);
+        max-width: calc(25% - 20px);
+    }
+
+    .cgv-body__card-item--thumbnail {
+        width: 250px;
+        height: 200px; /* Set a fixed height */
+        object-fit: cover; /* Crop the image to cover the container */
+        object-position: center;
+    }
+</style>
+
+
 
 <div class="container mt-3">
     <h1 class="text-center text-white">@Model.Name</h1>
@@ -11,16 +94,16 @@
 
     <hr>
 
-    <div class="hanime-body__cards container-fluid">
+    <div class="cgv-body__cards container-fluid">
         <div class="row">
             @foreach (var film in Model.Films)
             {
-                <a asp-controller="Film" asp-action="Index" asp-route-id="@film.Id" class="hanime-body__card-item col-xl-3 col-md-4 col-sm-6 col-xs-12">
-                    <img class="hanime-body__card-item--thumbnail" style="object-position: center; object-fit: cover;" height="200"
-                     src="@film.ImageUrl">
-                    <div class="hanime-body__card-item--body">
-                        <p class="hanime-body__card-item--body--title">@film.Name</p>
-                        <p class="hanime-body__card-item--body--sub">@film.ReleaseDate</p>
+                <a asp-controller="Film" asp-action="Index" asp-route-id="@film.Id" class="cgv-body__card-item col-xl-3 col-md-4 col-sm-6 col-xs-12">
+                    <img class="cgv-body__card-item--thumbnail" style="object-position: center; object-fit: cover;" height="200"
+                         src="@film.ImageUrl">
+                    <div class="cgv-body__card-item--body">
+                        <p class="cgv-body__card-item--body--title">@film.Name</p>
+                        <p class="cgv-body__card-item--body--sub">@film.ReleaseDate</p>
                     </div>
                 </a>
             }
