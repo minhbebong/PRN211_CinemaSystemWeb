@@ -34,7 +34,7 @@ namespace CinemaSystemWF
                 return;
             }
 
-            using (var context = new CinemaSystemContext()) // Thay YourDbContext bằng DbContext thực tế
+            using (var context = new CinemaSystemContext())
             {
                 var ticket = context.Tickets.FirstOrDefault(t => t.Show.Id == showID && t.User.Email == email && t.Otp == otp);
                 if (ticket != null)
@@ -42,16 +42,19 @@ namespace CinemaSystemWF
                     MessageBox.Show("Ticket is valid");
 
                     // Thêm thông tin log vào DataGridView
-                    DGLogs.Rows.Add(DateTime.Now, email,"đang chiếu" );
+                    DGLogs.Rows.Add(DateTime.Now, email, ticket.IsUsed);
                 }
                 else
                 {
                     MessageBox.Show("Invalid ticket");
 
-                   
+
+
                 }
             }
         }
     }
-    }
+}
+
+
 
