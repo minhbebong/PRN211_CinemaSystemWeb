@@ -42,7 +42,7 @@ namespace CinemaSystemWF
                 {
                     foreach (var show in shows)
                     {
-                        DGShows.Rows.Add(show.Id, show.FilmId, show.Start, show.End, show.TicketPrice, show.RoomId, "Check");
+                        DGShows.Rows.Add(show.Id, show.FilmId, show.Start.ToString("dd/MM/yyyy"), show.End.ToString("dd/MM/yyyy"), show.TicketPrice, show.RoomId, "Check");
                     }
                 });
             }

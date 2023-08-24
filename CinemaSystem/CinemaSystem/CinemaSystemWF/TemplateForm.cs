@@ -30,7 +30,7 @@ namespace CinemaSystemWF
         {
             Application.Exit();
         }
-        
+
         private void TopTitle_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)

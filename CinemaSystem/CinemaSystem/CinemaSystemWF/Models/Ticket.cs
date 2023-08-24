@@ -14,5 +14,6 @@ namespace CinemaSystemWF.Models
 
         public virtual Show Show { get; set; }
         public virtual User User { get; set; }
+        public bool IsTicketValid { get; internal set; }
     }
 }
