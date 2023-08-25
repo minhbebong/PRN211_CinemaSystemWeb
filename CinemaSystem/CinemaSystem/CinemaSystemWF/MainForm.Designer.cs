@@ -28,119 +28,134 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.DGShows = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Film = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Start = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.End = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TicketPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Room = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CheckTicket = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.panel1 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.DGShows)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.SuspendLayout();
+            DGShows = new DataGridView();
+            ID = new DataGridViewTextBoxColumn();
+            Film = new DataGridViewTextBoxColumn();
+            Start = new DataGridViewTextBoxColumn();
+            End = new DataGridViewTextBoxColumn();
+            TicketPrice = new DataGridViewTextBoxColumn();
+            Room = new DataGridViewTextBoxColumn();
+            CheckTicket = new DataGridViewButtonColumn();
+            panel1 = new Panel();
+            btn_Logout = new Button();
+            ((System.ComponentModel.ISupportInitialize)DGShows).BeginInit();
+            panel1.SuspendLayout();
+            SuspendLayout();
             // 
             // DGShows
             // 
-            this.DGShows.AllowUserToAddRows = false;
-            this.DGShows.AllowUserToDeleteRows = false;
-            this.DGShows.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGShows.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ID,
-            this.Film,
-            this.Start,
-            this.End,
-            this.TicketPrice,
-            this.Room,
-            this.CheckTicket});
-            this.DGShows.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DGShows.Location = new System.Drawing.Point(0, 0);
-            this.DGShows.Name = "DGShows";
-            this.DGShows.ReadOnly = true;
-            this.DGShows.RowTemplate.Height = 25;
-            this.DGShows.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DGShows.Size = new System.Drawing.Size(776, 402);
-            this.DGShows.TabIndex = 4;
-            this.DGShows.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGShows_CellClick);
+            DGShows.AllowUserToAddRows = false;
+            DGShows.AllowUserToDeleteRows = false;
+            DGShows.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            DGShows.Columns.AddRange(new DataGridViewColumn[] { ID, Film, Start, End, TicketPrice, Room, CheckTicket });
+            DGShows.Dock = DockStyle.Fill;
+            DGShows.Location = new Point(0, 0);
+            DGShows.Margin = new Padding(3, 4, 3, 4);
+            DGShows.Name = "DGShows";
+            DGShows.ReadOnly = true;
+            DGShows.RowHeadersWidth = 51;
+            DGShows.RowTemplate.Height = 25;
+            DGShows.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            DGShows.Size = new Size(887, 536);
+            DGShows.TabIndex = 4;
+            DGShows.CellClick += DGShows_CellClick;
             // 
             // ID
             // 
-            this.ID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.ID.HeaderText = "#";
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
-            this.ID.Width = 39;
+            ID.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            ID.HeaderText = "#";
+            ID.MinimumWidth = 6;
+            ID.Name = "ID";
+            ID.ReadOnly = true;
+            ID.Width = 47;
             // 
             // Film
             // 
-            this.Film.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Film.HeaderText = "Film";
-            this.Film.Name = "Film";
-            this.Film.ReadOnly = true;
-            this.Film.Width = 55;
+            Film.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            Film.HeaderText = "Film";
+            Film.MinimumWidth = 6;
+            Film.Name = "Film";
+            Film.ReadOnly = true;
+            Film.Width = 66;
             // 
             // Start
             // 
-            this.Start.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Start.HeaderText = "Start";
-            this.Start.Name = "Start";
-            this.Start.ReadOnly = true;
-            this.Start.Width = 56;
+            Start.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            Start.HeaderText = "Start";
+            Start.MinimumWidth = 6;
+            Start.Name = "Start";
+            Start.ReadOnly = true;
+            Start.Width = 69;
             // 
             // End
             // 
-            this.End.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.End.HeaderText = "End";
-            this.End.Name = "End";
-            this.End.ReadOnly = true;
-            this.End.Width = 52;
+            End.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            End.HeaderText = "End";
+            End.MinimumWidth = 6;
+            End.Name = "End";
+            End.ReadOnly = true;
+            End.Width = 63;
             // 
             // TicketPrice
             // 
-            this.TicketPrice.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.TicketPrice.HeaderText = "TicketPrice";
-            this.TicketPrice.Name = "TicketPrice";
-            this.TicketPrice.ReadOnly = true;
-            this.TicketPrice.Width = 89;
+            TicketPrice.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            TicketPrice.HeaderText = "TicketPrice";
+            TicketPrice.MinimumWidth = 6;
+            TicketPrice.Name = "TicketPrice";
+            TicketPrice.ReadOnly = true;
+            TicketPrice.Width = 109;
             // 
             // Room
             // 
-            this.Room.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Room.HeaderText = "Room";
-            this.Room.Name = "Room";
-            this.Room.ReadOnly = true;
-            this.Room.Width = 64;
+            Room.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            Room.HeaderText = "Room";
+            Room.MinimumWidth = 6;
+            Room.Name = "Room";
+            Room.ReadOnly = true;
+            Room.Width = 78;
             // 
             // CheckTicket
             // 
-            this.CheckTicket.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.CheckTicket.HeaderText = "CheckTicket";
-            this.CheckTicket.Name = "CheckTicket";
-            this.CheckTicket.ReadOnly = true;
+            CheckTicket.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            CheckTicket.HeaderText = "CheckTicket";
+            CheckTicket.MinimumWidth = 6;
+            CheckTicket.Name = "CheckTicket";
+            CheckTicket.ReadOnly = true;
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.DGShows);
-            this.panel1.Location = new System.Drawing.Point(12, 36);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(776, 402);
-            this.panel1.TabIndex = 5;
+            panel1.Controls.Add(btn_Logout);
+            panel1.Controls.Add(DGShows);
+            panel1.Location = new Point(14, 48);
+            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(887, 536);
+            panel1.TabIndex = 5;
+            // 
+            // btn_Logout
+            // 
+            btn_Logout.Location = new Point(794, -1);
+            btn_Logout.Name = "btn_Logout";
+            btn_Logout.Size = new Size(94, 29);
+            btn_Logout.TabIndex = 5;
+            btn_Logout.Text = "Logout";
+            btn_Logout.UseVisualStyleBackColor = true;
+            btn_Logout.Click += btn_Logout_Click;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel1);
-            this.Name = "MainForm";
-            this.Text = "MainForm";
-            this.Load += new System.EventHandler(this.MainForm_Load);
-            this.Controls.SetChildIndex(this.panel1, 0);
-            ((System.ComponentModel.ISupportInitialize)(this.DGShows)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(914, 600);
+            Controls.Add(panel1);
+            Margin = new Padding(3, 5, 3, 5);
+            Name = "MainForm";
+            Text = "MainForm";
+            Load += MainForm_Load;
+            Controls.SetChildIndex(panel1, 0);
+            ((System.ComponentModel.ISupportInitialize)DGShows).EndInit();
+            panel1.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion
@@ -154,5 +169,6 @@
         private DataGridViewTextBoxColumn Room;
         private DataGridViewButtonColumn CheckTicket;
         private Panel panel1;
+        private Button btn_Logout;
     }
 }
