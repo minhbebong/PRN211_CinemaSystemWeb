@@ -6,13 +6,10 @@ using CinemaSystemWebApp.Utils;
 
 namespace CinemaSystemWebApp.Controllers
 {
-    // Định nghĩa namespace và class cho Controller.
+
     public class AdminController : Controller
     {
-        // Khai báo trường private để lưu trữ đối tượng context của cơ sở dữ liệu.
         private readonly CinemaSystemContext db;
-
-        // Tạo constructor chấp nhận context của cơ sở dữ liệu như một tham số.
         public AdminController(CinemaSystemContext db)
         {
             this.db = db;
@@ -25,10 +22,8 @@ namespace CinemaSystemWebApp.Controllers
         // Ghi đè phương thức OnActionExecuting để thực hiện mã trước khi thực hiện các phương thức action.
         public override void OnActionExecuting(ActionExecutingContext context)
         {
-            // Lấy thông tin người dùng từ cookies bằng cách sử dụng phương thức tiện ích.
+            // lấy thông tin người dùng từ cookies 
             var user = Authentication.GetUserByCookies(context.HttpContext.Request.Cookies);
-
-            // Kiểm tra nếu người dùng là null hoặc không phải admin. Nếu có, chuyển hướng đến trang chủ ("/").
             if (user is null || user.Role != (int)Models.User.Roles.Admin)
             {
                 context.Result = new RedirectResult("/");
@@ -37,30 +32,19 @@ namespace CinemaSystemWebApp.Controllers
             // Lưu trữ thông tin người dùng trong thuộc tính AdminUser.
             AdminUser = user!;
         }
-
-        // Định nghĩa một phương thức action Index với tham số tùy chọn 'tab'.
         public IActionResult Index(string? tab)
         {
-            // Tải danh sách các danh mục và phim từ cơ sở dữ liệu và lưu chúng vào ViewBag.
             ViewBag.Categories = db.Categories.ToList();
             ViewBag.Films = db.Films.ToList();
-
-            // Lưu giá trị của tham số 'tab' vào ViewBag.
             ViewBag.ActiveTab = tab;
-
-            // Trả về view với đối tượng AdminUser.
             return View(AdminUser);
         }
 
-        // Định nghĩa một phương thức HTTP POST action CreateShow với các tham số.
         [HttpPost]
         public IActionResult CreateShow(int id, float price, DateTime start, int room)
         {
-            // Lấy đối tượng phim và phòng chiếu từ cơ sở dữ liệu dựa trên các tham số được cung cấp.
             var film = db.Films.Find(id);
             var roomObj = db.Rooms.Find(room);
-
-            // Kiểm tra nếu phim hoặc phòng không hợp lệ và chuyển hướng nếu cần.
             if (film is null || roomObj is null)
             {
                 return RedirectToAction("Index", "Film", new { id = id, message = "Phim hoặc phòng không hợp lệ!" });
@@ -81,39 +65,45 @@ namespace CinemaSystemWebApp.Controllers
             {
                 return RedirectToAction("Index", "Film", new { id = id, message = "Thời gian chiếu không hợp lệ!" });
             }
-
-            // Thêm chiếu vào cơ sở dữ liệu và lưu thay đổi.
             db.Shows.Add(show);
             db.SaveChanges();
-
-            // Chuyển hướng đến trang chủ phim với thông báo thành công.
             return RedirectToAction("Index", "Film", new { id = id, message = "Tạo lịch chiếu thành công!" });
         }
 
-        // Định nghĩa phương thức action Category để quản lý danh mục phim.
+        //  phương thức action Category để quản lý danh mục phim
         [HttpPost]
         public IActionResult Category(int? id, string name, string description, string action)
         {
             switch (action)
             {
                 case "create":
-                    // Tạo một danh mục mới và thêm vào cơ sở dữ liệu.
-                    db.Categories.Add(new Models.Category() { Name = name, Desc = description });
+                    var newCategory = new Models.Category()
+                    {
+                        Name = name,
+                        Desc = description
+                    };
+                    db.Categories.Add(newCategory);
                     db.SaveChanges();
                     break;
                 case "edit":
                     if (id.HasValue)
                     {
-                        // Cập nhật thông tin danh mục dựa trên ID.
-                        db.Categories.Update(new Models.Category() { Id = id.Value, Name = name, Desc = description });
-                        db.SaveChanges();
+                        var categoryToEdit = db.Categories.Find(id.Value);
+
+                        if (categoryToEdit != null)
+                        {
+                            //Cập nhật thông tin của danh mục
+                            categoryToEdit.Name = name;
+                            categoryToEdit.Desc = description;
+                            db.SaveChanges();
+                        }
                     }
                     break;
                 case "delete":
                     if (id.HasValue)
                     {
-                        // Xóa danh mục dựa trên ID.
-                        db.Categories.Remove(new Models.Category() { Id = id.Value });
+                        var categoryToDelete = db.Categories.Find(id.Value);
+                        db.Categories.Remove(categoryToDelete);
                         db.SaveChanges();
                     }
                     break;
@@ -121,17 +111,21 @@ namespace CinemaSystemWebApp.Controllers
                     break;
             }
 
-            // Chuyển hướng đến action Index với tab "category" được kích hoạt.
+
             return RedirectToAction(nameof(Index), new { tab = "category" });
         }
 
-        // Định nghĩa phương thức action Film để quản lý phim.
         [HttpPost]
         public IActionResult Film(int? id, string name, string description, List<int>? categories, [FromForm(Name = "release-date")] DateTime? releaseDate, int? length, string action, IFormFile? image)
         {
             switch (action)
             {
                 case "create":
+                    if (length.HasValue && length.Value > 260)
+                    {
+                        ModelState.AddModelError("length", "Độ dài phim không được vượt quá 260");
+                        return RedirectToAction(nameof(Index), new { tab = "film" });
+                    }
                     if (image is not null)
                     {
                         // Lấy đường dẫn lưu trữ và tải hình ảnh lên.
@@ -170,7 +164,7 @@ namespace CinemaSystemWebApp.Controllers
             // Chuyển hướng đến action Index với tab "film" được kích hoạt.
             return RedirectToAction(nameof(Index), new { tab = "film" });
         }
-    
+
     }
 
 }
