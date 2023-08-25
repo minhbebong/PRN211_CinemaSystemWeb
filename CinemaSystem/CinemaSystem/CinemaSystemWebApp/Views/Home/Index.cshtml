@@ -46,7 +46,7 @@
             <a asp-controller="Film" asp-action="Index" asp-route-id="@film.Id" class="film-card col-xl-2 col-md-3 col-sm-6 col-xs-12">
                 <img class="film-thumbnail" src="@film.ImageUrl">
                 <div class="film-title">@film.Name</div>
-                <div class="film-sub">@film.ReleaseDate</div>
+                <div class="film-sub">@film.ReleaseDate.ToString("dd/MM/yyyy")</div>
             </a>
         }
     </div>
