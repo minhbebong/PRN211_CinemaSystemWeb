@@ -5,11 +5,12 @@
     "\\CinemaSystem\\CinemaSystemWebApp",
     "\\CinemaSystem\\CinemaSystemWebApp\\Controllers",
     "\\CinemaSystem\\CinemaSystemWebApp\\Models",
+    "\\CinemaSystem\\CinemaSystemWebApp\\Utils",
     "\\CinemaSystem\\CinemaSystemWebApp\\Views",
     "\\CinemaSystem\\CinemaSystemWebApp\\Views\\Admin",
     "\\CinemaSystem\\CinemaSystemWebApp\\Views\\Home",
     "\\CinemaSystem\\CinemaSystemWF"
   ],
-  "SelectedNode": "\\CinemaSystem\\CinemaSystemWF\\MainForm.cs",
+  "SelectedNode": "\\CinemaSystem\\CinemaSystemWebApp\\Utils\\TokenUtils.cs",
   "PreviewInSolutionExplorer": false
 }
