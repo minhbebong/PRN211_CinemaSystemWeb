@@ -27,7 +27,7 @@ namespace CinemaSystemWF
         }
         private async void MainForm_Load(object sender, EventArgs e)
         {
-            
+
             using (var context = new CinemaSystemContext()) // Replace with your actual DbContext class
             {
                 var shows = context.Shows.ToList();
@@ -56,6 +56,13 @@ namespace CinemaSystemWF
                 }
             }
             catch { }
+        }
+
+        private void btn_Logout_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginForm login = new LoginForm();
+            login.ShowDialog();
         }
     }
 }
