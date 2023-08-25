@@ -13,6 +13,7 @@ namespace CinemaSystemWF
 {
     public partial class TemplateForm : Form
     {
+        protected LoginForm loginForm;
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
 
@@ -28,7 +29,12 @@ namespace CinemaSystemWF
 
         private void ExitBtn_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            // Ẩn form hiện tại và hiển thị lại form đăng nhập
+            this.Hide();
+            if (loginForm != null && !loginForm.IsDisposed)
+            {
+                loginForm.Show();
+            }
         }
         
         private void TopTitle_MouseDown(object sender, MouseEventArgs e)

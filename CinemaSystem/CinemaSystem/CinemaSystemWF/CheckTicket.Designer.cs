@@ -33,8 +33,6 @@
             CheckBtn = new Button();
             label3 = new Label();
             TextBoxOTP = new TextBox();
-            TextBoxEmail = new TextBox();
-            label2 = new Label();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             groupBox1 = new GroupBox();
             DGLogs = new DataGridView();
@@ -50,7 +48,7 @@
             // label4
             // 
             label4.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(3, 254);
+            label4.Location = new Point(3, 272);
             label4.Name = "label4";
             label4.Size = new Size(430, 56);
             label4.TabIndex = 8;
@@ -85,23 +83,6 @@
             TextBoxOTP.Name = "TextBoxOTP";
             TextBoxOTP.Size = new Size(357, 27);
             TextBoxOTP.TabIndex = 11;
-            // 
-            // TextBoxEmail
-            // 
-            TextBoxEmail.Location = new Point(55, 314);
-            TextBoxEmail.Margin = new Padding(3, 4, 3, 4);
-            TextBoxEmail.Name = "TextBoxEmail";
-            TextBoxEmail.Size = new Size(357, 27);
-            TextBoxEmail.TabIndex = 10;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(3, 321);
-            label2.Name = "label2";
-            label2.Size = new Size(46, 20);
-            label2.TabIndex = 9;
-            label2.Text = "Email";
             // 
             // groupBox1
             // 
@@ -179,13 +160,9 @@
             Controls.Add(CheckBtn);
             Controls.Add(label3);
             Controls.Add(TextBoxOTP);
-            Controls.Add(TextBoxEmail);
-            Controls.Add(label2);
             Margin = new Padding(3, 5, 3, 5);
             Name = "CheckTicket";
             Text = "CheckTicket";
-            Controls.SetChildIndex(label2, 0);
-            Controls.SetChildIndex(TextBoxEmail, 0);
             Controls.SetChildIndex(TextBoxOTP, 0);
             Controls.SetChildIndex(label3, 0);
             Controls.SetChildIndex(CheckBtn, 0);
@@ -205,8 +182,6 @@
         private Button CheckBtn;
         private Label label3;
         private TextBox TextBoxOTP;
-        private TextBox TextBoxEmail;
-        private Label label2;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private GroupBox groupBox1;
         private DataGridView DGLogs;

@@ -7,8 +7,9 @@
     "\\CinemaSystem\\CinemaSystemWebApp\\Models",
     "\\CinemaSystem\\CinemaSystemWebApp\\Views",
     "\\CinemaSystem\\CinemaSystemWebApp\\Views\\Admin",
-    "\\CinemaSystem\\CinemaSystemWebApp\\Views\\Home"
+    "\\CinemaSystem\\CinemaSystemWebApp\\Views\\Home",
+    "\\CinemaSystem\\CinemaSystemWF"
   ],
-  "SelectedNode": "\\CinemaSystem\\CinemaSystemWebApp\\Views\\_ViewImports.cshtml",
+  "SelectedNode": "\\CinemaSystem\\CinemaSystemWF\\MainForm.cs",
   "PreviewInSolutionExplorer": false
 }
