@@ -1,5 +1,4 @@
 ﻿using CinemaSystemWF.Models;
-using CinemeSystemWF.Requests;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,22 +17,17 @@ namespace CinemaSystemWF
         {
             InitializeComponent();
         }
-
+        private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Khi đóng MainForm, hiển thị lại LoginForm
+            if (loginForm != null && !loginForm.IsDisposed)
+            {
+                loginForm.Show();
+            }
+        }
         private async void MainForm_Load(object sender, EventArgs e)
         {
-            //var response = await ShowRequest.Instance.GetShows(TimeSpan.FromHours(1)).ConfigureAwait(false);
 
-
-            //this.Invoke(() =>
-            //{
-            //    if (response.Success)
-            //    {
-            //        foreach (var show in response.Shows)
-            //        {
-            //            DGShows.Rows.Add(show.ID, show.Film, show.Start, show.End, show.TicketPrice, show.Room, "Check");
-            //        }
-            //    }
-            //});
             using (var context = new CinemaSystemContext()) // Replace with your actual DbContext class
             {
                 var shows = context.Shows.ToList();
@@ -42,7 +36,7 @@ namespace CinemaSystemWF
                 {
                     foreach (var show in shows)
                     {
-                        DGShows.Rows.Add(show.Id, show.FilmId, show.Start, show.End, show.TicketPrice, show.RoomId, "Check");
+                        DGShows.Rows.Add(show.Id, show.FilmId, show.Start.ToString("dd/MM/yyyy"), show.End.ToString("dd/MM/yyyy"), show.TicketPrice, show.RoomId, "Check");
                     }
                 });
             }
@@ -62,6 +56,13 @@ namespace CinemaSystemWF
                 }
             }
             catch { }
+        }
+
+        private void btn_Logout_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginForm login = new LoginForm();
+            login.ShowDialog();
         }
     }
 }

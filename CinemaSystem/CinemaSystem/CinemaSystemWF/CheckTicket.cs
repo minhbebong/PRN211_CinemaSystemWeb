@@ -1,6 +1,4 @@
 ﻿using CinemaSystemWF.Models;
-using CinemeSystemWF;
-using CinemeSystemWF.Requests;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,35 +23,47 @@ namespace CinemaSystemWF
 
         private async void CheckBtn_Click(object sender, EventArgs e)
         {
-            var email = TextBoxEmail.Text.Trim();
             var otp = TextBoxOTP.Text.Trim();
 
-            if (email.Length == 0 || otp.Length == 0)
+            if (otp.Length == 0)
             {
-                MessageBox.Show("Please fill all fields");
+                MessageBox.Show("Please enter OTP");
                 return;
             }
 
             using (var context = new CinemaSystemContext())
             {
-                var ticket = context.Tickets.FirstOrDefault(t => t.Show.Id == showID && t.User.Email == email && t.Otp == otp);
+                var ticket = context.Tickets.FirstOrDefault(t => t.Show.Id == showID && t.Otp == otp);
+
                 if (ticket != null)
                 {
-                    MessageBox.Show("Ticket is valid");
+                    if (ticket.IsUsed)
+                    {
+                        MessageBox.Show("This OTP has already been checked.");
+                    }
+                    else
+                    {
+                        // Cập nhật trạng thái mã OTP đã được sử dụng
+                        ticket.IsUsed = true;
+                        context.SaveChanges();
 
-                    // Thêm thông tin log vào DataGridView
-                    DGLogs.Rows.Add(DateTime.Now, email, ticket.IsUsed);
+                        MessageBox.Show("OTP is valid. It has been marked as used.");
+
+                        // Thêm thông tin log vào DataGridView
+                        DGLogs.Rows.Add(DateTime.Now, ticket.Otp, "Checked");
+
+                        // Xóa mã OTP đã kiểm tra khỏi TextBox
+                        TextBoxOTP.Text = string.Empty;
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Invalid ticket");
-
-
-
+                    MessageBox.Show("Invalid OTP");
                 }
             }
         }
     }
+
 }
 
 
