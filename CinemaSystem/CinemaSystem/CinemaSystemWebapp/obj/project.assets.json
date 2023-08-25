@@ -2384,19 +2384,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\SWP391\\gitclone\\PRN211_CinemaSystemWeb\\CinemaSystem\\CinemaSystem\\CinemaSystemWebApp\\CinemaSystemWebApp.csproj",
+      "projectUniqueName": "E:\\Documents\\GitHub\\PRN211_CinemaSystemWeb\\CinemaSystem\\CinemaSystem\\CinemaSystemWebApp\\CinemaSystemWebApp.csproj",
       "projectName": "CinemaSystemWebApp",
-      "projectPath": "G:\\SWP391\\gitclone\\PRN211_CinemaSystemWeb\\CinemaSystem\\CinemaSystem\\CinemaSystemWebApp\\CinemaSystemWebApp.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "G:\\SWP391\\gitclone\\PRN211_CinemaSystemWeb\\CinemaSystem\\CinemaSystem\\CinemaSystemWebApp\\obj\\",
+      "projectPath": "E:\\Documents\\GitHub\\PRN211_CinemaSystemWeb\\CinemaSystem\\CinemaSystem\\CinemaSystemWebApp\\CinemaSystemWebApp.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "E:\\Documents\\GitHub\\PRN211_CinemaSystemWeb\\CinemaSystem\\CinemaSystem\\CinemaSystemWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2404,7 +2404,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2461,7 +2460,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
