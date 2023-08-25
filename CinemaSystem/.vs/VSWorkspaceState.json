@@ -11,6 +11,6 @@
     "\\CinemaSystem\\CinemaSystemWebApp\\Views\\Home",
     "\\CinemaSystem\\CinemaSystemWF"
   ],
-  "SelectedNode": "\\CinemaSystem\\CinemaSystemWebApp\\Utils\\TokenUtils.cs",
+  "SelectedNode": "\\CinemaSystem\\CinemaSystemWebApp\\Views\\Admin\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

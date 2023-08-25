@@ -49,7 +49,10 @@ namespace CinemaSystemWebApp.Controllers
             {
                 return RedirectToAction("Index", "Film", new { id = id, message = "Phim hoặc phòng không hợp lệ!" });
             }
-
+            if (price <= 0 || price > 2000)
+            {
+                return RedirectToAction("Index", "Film", new { id = id, message = "Giá vé không hợp lệ!" });
+            }
             // Tạo một đối tượng Show mới với dữ liệu được cung cấp.
             var show = new Show
             {
